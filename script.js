@@ -65,11 +65,9 @@ function addParagraph() {
     var paragraph = document.createElement('p');
     var text = document.createTextNode(new Date().toString());
     paragraph.appendChild(text);
-    //paragraph.innerText = new Date().toString();
     
     // Modifying the paragraph
-    paragraph.style.fontFamily = 'Sans-Serif';
-    paragraph.style.color = '#989989';
+    paragraph.className = 'my-para';
     
     // Actually adding paragraph to the document body so it is visible
     document.body.appendChild(paragraph);
