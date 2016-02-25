@@ -13,12 +13,12 @@
         <button onclick="printStaff()">Print Staff Directory</button>
         <button onclick="addDavidToStaff()">Add David</button>
         <h1>My Calculator</h1>
-        <input type="number" placeholder="Value 1">
-        <input type="number" placeholder="Value 2">
-        <button>Add</button>
-        <button>Subtract</button>
-        <button>Multiply</button>
-        <button>Divide</button>
+        <input type="number" placeholder="Value 1" id="op1">
+        <input type="number" placeholder="Value 2" id="op2">
+        <button onclick="calculate('add')">Add</button>
+        <button onclick="calculate('subtract')">Subtract</button>
+        <button onclick="calculate('multiply')">Multiply</button>
+        <button onclick="calculate('divide')">Divide</button>
         <h1>Paragraphs</h1>
         <button onclick="addParagraph()">Add Paragraph</button>
     </body>
