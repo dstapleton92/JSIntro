@@ -59,3 +59,18 @@ function divide(op1, op2) {
 function multiply(op1, op2) {
     return op1 * op2;
 }
+
+function addParagraph() {
+    // Setting up paragraph and text
+    var paragraph = document.createElement('p');
+    var text = document.createTextNode(new Date().toString());
+    paragraph.appendChild(text);
+    //paragraph.innerText = new Date().toString();
+    
+    // Modifying the paragraph
+    paragraph.style.fontFamily = 'Sans-Serif';
+    paragraph.style.color = '#989989';
+    
+    // Actually adding paragraph to the document body so it is visible
+    document.body.appendChild(paragraph);
+}
