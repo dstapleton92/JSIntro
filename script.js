@@ -28,17 +28,11 @@ function checkGrade() {
             alert('Better luck next time');
     }
 }
-
-function printStaff(shouldAddDavid) {
-    var staff = ['Tyler', 'Hillary', 'Haley'];
-    if (shouldAddDavid) {
-        staff.push('David');
-    }
-
+var staff = ['Tyler', 'Hillary', 'Haley'];
+function printStaff() {
     for(var i = 0; i < staff.length; i++) {
         var staffMember = staff[i];
         console.log('Introducting staff member: ' + staffMember);
-        
     }
 }
 
