@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var element = document.getElementById('id-1');
+    element.style.color = 'red';
+});
+
 function checkAge() {
     var age = prompt('What is your age?');
     console.log('Hello, you are ' + age);
