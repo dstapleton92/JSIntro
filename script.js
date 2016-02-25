@@ -29,6 +29,23 @@ function checkGrade() {
     }
 }
 
+function printStaff(shouldAddDavid) {
+    var staff = ['Tyler', 'Hillary', 'Haley'];
+    if (shouldAddDavid) {
+        staff.push('David');
+    }
+
+    for(var i = 0; i < staff.length; i++) {
+        var staffMember = staff[i];
+        console.log('Introducting staff member: ' + staffMember);
+        
+    }
+}
+
+function addDavidToStaff() {
+    staff.push('David');
+}
+
 function add(op1, op2) {
     return op1 + op2;
 }
